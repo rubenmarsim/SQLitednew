@@ -1,5 +1,8 @@
-﻿using System;
+﻿using SQLite.Models;
+using SQLite.ViewModels.Base;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace SQLite.ViewModels
