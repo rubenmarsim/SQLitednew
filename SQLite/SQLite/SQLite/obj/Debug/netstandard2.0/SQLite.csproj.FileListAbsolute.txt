@@ -1,5 +1,3 @@
-C:\Users\admin\Documents\GitHub\SQLitednew\SQLite\SQLite\SQLite\bin\Debug\netstandard2.0\SQLite.deps.json
-C:\Users\admin\Documents\GitHub\SQLitednew\SQLite\SQLite\SQLite\bin\Debug\netstandard2.0\SQLite.dll
 C:\Users\admin\Documents\GitHub\SQLitednew\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\SQLite.csprojAssemblyReference.cache
 C:\Users\admin\Documents\GitHub\SQLitednew\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\admin\Documents\GitHub\SQLitednew\SQLite\SQLite\SQLite\obj\Debug\netstandard2.0\Views\MainView.xaml.g.cs

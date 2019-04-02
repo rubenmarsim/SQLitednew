@@ -1,5 +1,6 @@
-﻿using ListView_XamarinForms.Views;
+﻿using SQLite.Models;
 using SQLite.ViewModels.Base;
+using SQLite.Views;
 using System;
 using System.IO;
 using Xamarin.Forms;
@@ -22,6 +23,12 @@ namespace SQLite
         public App()
         {
             InitializeComponent();
+
+            var todoItems = App.Database.GetItemsNotDoneAsync("SELECT * FROM[TodoItem]").Result;
+            if (todoItems.Count == 0)
+            {
+                //App.Database.SaveItemAsync(Monkey);
+            }
 
             MainPage = new NavigationPage(new MainView());
         }

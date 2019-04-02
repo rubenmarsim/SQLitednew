@@ -1,6 +1,9 @@
-﻿using System;
+﻿using SQLite.Services.Navigation;
+using SQLite.ViewModels.Base;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
 
 namespace SQLite.ViewModels
 {

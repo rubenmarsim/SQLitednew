@@ -25,9 +25,9 @@ namespace SQLite.ViewModels.Base
             return database.Table<TodoItem>().ToListAsync();
         }
 
-        public Task<List<TodoItem>> GetItemsNotDoneAsync()
+        public Task<List<TodoItem>> GetItemsNotDoneAsync(string query)
         {
-            return database.QueryAsync<TodoItem>("SELECT * FROM [TodoItem] WHERE [Done] = 0");
+            return database.QueryAsync<TodoItem>(query);
         }
 
         public Task<TodoItem> GetItemAsync(int id)
